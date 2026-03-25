@@ -25,15 +25,40 @@ This lab builds a simulated enterprise network using Active Directory. A Domain 
 <h2>Lab Walk-Through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
+IP Addressing and Network Configuration: <br />
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/697e368a-3ad4-41b8-af02-2df31b9223ac" width="260"/>
+ &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/47e9cff0-67ae-411c-9b32-6ae93d4f1d7e" width="260"/>
+
+**` Tasks Completed `**
+- Configured static IP on Windows Server (Domain Controller). 
+- Assigned IP address **172.16.0.1**, subnet mask **255.255.255.0**, and DNS **127.0.0.1**.  
+- Set DNS to point to the Domain Controller.
+- No default gateway was configured because the lab uses an isolated internal network. All communication occurs within the local environment between the Domain Controller and the client system.  
+
+**` Overview `** 
+-  This step establishes network communication by assigning a static IP address to the Domain Controller. Proper IP configuration ensures reliable connectivity and supports Active Directory, DNS, and DHCP services.
+  
+<p align="center">
+Active Directory Installation and Domain Setup:  <br/>
+<img src="https://github.com/user-attachments/assets/c9c572fd-f1a9-4c6b-8115-f0cc490e332f" width="1239"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="1239"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/7b33cc25-9f0b-4ff7-ad99-bc2cfaf7321b" width="1239"/>
+
+  **` Tasks Completed `**
+- Installed Active Directory Domain Services (AD DS) role.  
+- Promoted Windows Server to Domain Controller.  
+- Created a new domain (mydomain.com).  
+- Configured DNS during domain setup.  
+- Verified successful domain deployment.  
+
+**` Overview `** 
+-  This step establishes centralized identity and access management by configuring the server as a Domain Controller. Active Directory allows administrators to manage users, systems, and resources within a domain, which is a core function in enterprise IT environments.
+  
+ <p align="center">
+RAS/NAT: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
