@@ -155,10 +155,19 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 -  This step uses PowerShell to automate user account creation in Active Directory. Automation reduces manual effort, improves consistency, and is commonly used in enterprise environments to manage large numbers of users efficiently.
 
 <p align="center">
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Client Machine Setup:  <br/>
+<img width="400" height="500" alt="Image" src="https://github.com/user-attachments/assets/96368fa8-aed4-4996-88e4-9a3e5ff2850e" />
 <br />
-<br />
+ 
+**` Tasks Completed `**
+- Created Windows 10 virtual machine (Client 1) in VirtualBox.
+- Allocated system resources (RAM, storage, network adapter). 
+- Installed Windows 10 operating system. 
+- Connected the client machine to the internal network. 
+- Verified network connectivity with the Domain Controller. 
+  
+**` Overview `** 
+- This step sets up a client system within the lab environment to simulate a real user workstation. The client machine is used to test domain connectivity, user authentication, and network services provided by the Domain Controller.
 
 <p align="center">
 Observe the wiped disk:  <br/>
