@@ -80,16 +80,16 @@ RAS/NAT: <br/>
 
 <p align="center">
 Internet Access Configuration:  <br/>
-<img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/4bb79ddc-54cb-4b1c-928e-cb3c04e51eb4" />
+<img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/4bb79ddc-54cb-4b1c-928e-cb3c04e51eb4" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/c1459a11-34f1-42a4-af84-e9d09cea9848" />
  
  **` Tasks Completed `**
-- Configured NAT to allow outbound internet access. 
-- Assigned an external network adapter (NAT) for internet connectivity. 
-- Verified Domain Controller can access external websites. 
-- Tested connectivity using browser and network tools. 
+- Opened Server Manager and accessed Local Server settings.  
+- Disabled Internet Explorer Enhanced Security Configuration (IE ESC).  
+- Verified internet access from the Domain Controller using a web browser.  
 
 **` Overview `** 
--  This step enables the Domain Controller to access external networks through NAT. Internet connectivity is required for updates and system functionality. In a production environment, Domain Controllers are typically not used for direct internet browsing to reduce security risks, but it is configured in this lab to test and demonstrate network connectivity.
+-  This step allows basic internet access from the Domain Controller for testing purposes. In a production environment, Domain Controllers are typically restricted from direct internet browsing to reduce security risks, but this is enabled in the lab to validate connectivity and functionality.
   
 <p align="center">
 Wait for process to complete (may take some time):  <br/>
