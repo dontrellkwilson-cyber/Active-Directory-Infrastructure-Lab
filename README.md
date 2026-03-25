@@ -92,10 +92,67 @@ Internet Access Configuration:  <br/>
 -  This step allows basic internet access from the Domain Controller for testing purposes. In a production environment, Domain Controllers are typically restricted from direct internet browsing to reduce security risks, but this is enabled in the lab to validate connectivity and functionality.
   
 <p align="center">
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+PowerShell User Automation:  <br/>
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/add3c286-d617-41ba-9462-35ef3c38b454" />&nbsp;&nbsp;&nbsp;&nbsp; <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/8e6a987d-ca5e-4e6e-9ef0-486cafb018c9" />
+ <br><br>
+ <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/dd3d2fc9-e654-4b75-b909-646ba155321d" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/501c0561-3070-45b9-ab0d-f909c1f3e416" />
+ 
+**` Script Used `**
+```powershell
+$PASSWORD_FOR_USERS   = "Password1"
+$NUMBER_OF_ACCOUNTS_TO_CREATE = 10000
+
+Function generate-random-name() {
+    $consonants = @('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z')
+    $vowels = @('a','e','i','o','u','y')
+    $nameLength = Get-Random -Minimum 3 -Maximum 7
+    $count = 0
+    $name = ""
+
+    while ($count -lt $nameLength) {
+        if ($count % 2 -eq 0) {
+            $name += $consonants[(Get-Random -Minimum 0 -Maximum ($consonants.Count - 1))]
+        } else {
+            $name += $vowels[(Get-Random -Minimum 0 -Maximum ($vowels.Count - 1))]
+        }
+        $count++
+    }
+    return $name
+}
+
+$count = 1
+while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
+    $firstName = generate-random-name
+    $lastName = generate-random-name
+    $username = "$firstName.$lastName"
+    $password = ConvertTo-SecureString $PASSWORD_FOR_USERS -AsPlainText -Force
+
+    Write-Host "Creating user: $username"
+
+    New-ADUser -AccountPassword $password `
+               -GivenName $firstName `
+               -Surname $lastName `
+               -DisplayName $username `
+               -Name $username `
+               -EmployeeID $username `
+               -PasswordNeverExpires $true `
+               -Path "OU=_EMPLOYEES,$(([ADSI]``"").distinguishedName)" `
+               -Enabled $true
+
+    $count++
+}
+```
+ **` Script Overview `** 
+ - This script automates bulk user creation in Active Directory by generating random first and last names and creating unique usernames. It significantly reduces manual effort and demonstrates how scripting is used in enterprise environments to manage large numbers of user accounts efficiently.
+   
+ **` Tasks Completed `**
+- Opened PowerShell with administrative privileges. 
+- Imported Active Directory module. 
+- Executed script to create multiple user accounts. 
+- Verified users were successfully created in Active Directory. 
+  
+**` Overview `** 
+-  This step uses PowerShell to automate user account creation in Active Directory. Automation reduces manual effort, improves consistency, and is commonly used in enterprise environments to manage large numbers of users efficiently.
 
 <p align="center">
 Sanitization complete:  <br/>
