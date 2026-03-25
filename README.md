@@ -43,7 +43,8 @@ IP Addressing and Network Configuration: <br />
 Active Directory Installation and Domain Setup:  <br/>
 <p align="left">
   <img src="https://github.com/user-attachments/assets/c9c572fd-f1a9-4c6b-8115-f0cc490e332f" width="400"/>
-  <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="400"/>
+  &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="400"/> 
+ <br><br>
   <img src="https://github.com/user-attachments/assets/7b33cc25-9f0b-4ff7-ad99-bc2cfaf7321b" width="400"/>
 </p>
 
@@ -60,10 +61,11 @@ Active Directory Installation and Domain Setup:  <br/>
  <p align="center">
 RAS/NAT: <br/>
 <p align="left">
- <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0af40b6b-c50a-42f3-846c-0f799495c9b5" />
- <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/566f74c0-8ec3-43bb-9d1f-0c1cd6f3f2b4" />
- <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/b6adedc0-1835-4dcf-8f3c-1cace81b3fc6" />
- <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/2ba4ead2-73c0-4436-9fd3-d97d8aa496d7" />
+ <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/0af40b6b-c50a-42f3-846c-0f799495c9b5" /> 
+ &nbsp;&nbsp;&nbsp;&nbsp; <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/566f74c0-8ec3-43bb-9d1f-0c1cd6f3f2b4" />
+ <br><br>
+ <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/b6adedc0-1835-4dcf-8f3c-1cace81b3fc6" />
+ &nbsp;&nbsp;&nbsp;&nbsp; <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/2ba4ead2-73c0-4436-9fd3-d97d8aa496d7" />
 </p>
 
 **` Tasks Completed `**
