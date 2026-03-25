@@ -41,11 +41,11 @@ IP Addressing and Network Configuration: <br />
   
 <p align="center">
 Active Directory Installation and Domain Setup:  <br/>
-<img src="https://github.com/user-attachments/assets/c9c572fd-f1a9-4c6b-8115-f0cc490e332f" width="1239"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="1239"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/7b33cc25-9f0b-4ff7-ad99-bc2cfaf7321b" width="1239"/>
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/c9c572fd-f1a9-4c6b-8115-f0cc490e332f" width="400"/>
+  <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="400"/>
+  <img src="https://github.com/user-attachments/assets/7b33cc25-9f0b-4ff7-ad99-bc2cfaf7321b" width="400"/>
+</p>
 
   **` Tasks Completed `**
 - Installed Active Directory Domain Services (AD DS) role.  
@@ -59,9 +59,22 @@ Active Directory Installation and Domain Setup:  <br/>
   
  <p align="center">
 RAS/NAT: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+<p align="left">
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0af40b6b-c50a-42f3-846c-0f799495c9b5" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/566f74c0-8ec3-43bb-9d1f-0c1cd6f3f2b4" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/b6adedc0-1835-4dcf-8f3c-1cace81b3fc6" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/2ba4ead2-73c0-4436-9fd3-d97d8aa496d7" />
+</p>
+
+**` Tasks Completed `**
+- Installed the Remote Access role on Windows Server.  
+- Enabled Routing and Remote Access Service (RRAS).  
+- Configured NAT to allow internal network access to the Internet.  
+- Selected the external network interface for Internet access.  
+- Verified client connectivity to external networks.  
+
+**` Overview `** 
+-  This step allows devices on the internal network to access external networks through Network Address Translation. NAT enables multiple systems to share a single external connection, which is commonly used in enterprise environments to manage and secure outbound traffic.
 Confirm your selection:  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
