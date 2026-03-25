@@ -77,7 +77,9 @@ RAS/NAT: <br/>
 
 **` Overview `** 
 -  This step allows devices on the internal network to access external networks through Network Address Translation. NAT enables multiple systems to share a single external connection, which is commonly used in enterprise environments to manage and secure outbound traffic.
-Confirm your selection:  <br/>
+
+<p align="center">
+Internet Access Configuration:  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
