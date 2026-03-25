@@ -80,17 +80,30 @@ RAS/NAT: <br/>
 
 <p align="center">
 Internet Access Configuration:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+<img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/4bb79ddc-54cb-4b1c-928e-cb3c04e51eb4" />
+ 
+ **` Tasks Completed `**
+- Configured NAT to allow outbound internet access. 
+- Assigned an external network adapter (NAT) for internet connectivity. 
+- Verified Domain Controller can access external websites. 
+- Tested connectivity using browser and network tools. 
+
+**` Overview `** 
+-  This step enables the Domain Controller to access external networks through NAT. Internet connectivity is required for updates and system functionality. In a production environment, Domain Controllers are typically not used for direct internet browsing to reduce security risks, but it is configured in this lab to test and demonstrate network connectivity.
+  
+<p align="center">
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+<p align="center">
 Sanitization complete:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+<p align="center">
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
