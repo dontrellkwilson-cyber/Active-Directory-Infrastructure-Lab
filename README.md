@@ -8,16 +8,16 @@ This lab builds a simulated enterprise network using Active Directory. A Domain 
 <h2>Languages and Technologies Used:</h2>
 
 - <b>PowerShell</b> 
-- <b>DNS<b>
-- <b>DHCP<b>
+- <b>DNS</b>
+- <b>DHCP</b>
 - <b>Active Directory Users and Computers (ADUC)</b>
-- <b>Active Directory Domain Services (AD DS)<b>
+- <b>Active Directory Domain Services (AD DS)</b>
 
 <h2>Environments Used:</h2>
 
 - <b>VirtualBox 10</b>
 - <b>Windows 10</b> (21H2)
-- <b>Windows Server 2022<b>
+- <b>Windows Server 2022</b>
 
 <h2>Network Diagram:</h2>
 <img width="1239" height="749" alt="Image" src="https://github.com/user-attachments/assets/5700374f-8276-4054-962e-7421f61d373d" />
@@ -93,7 +93,7 @@ Internet Access Configuration:  <br/>
 - Verified internet access from the Domain Controller using a web browser.  
 
 **` Overview `** 
--  This step allows basic internet access from the Domain Controller for testing purposes. In a production environment, Domain Controllers are typically restricted from direct internet browsing to reduce security risks, but this is enabled in the lab to validate connectivity and functionality.
+-  This step enables internet access from the Domain Controller for testing. In a production environment, Domain Controllers are typically restricted from direct internet browsing to reduce security risks, but this is enabled in the lab to validate connectivity and functionality.
   
 <p align="center">
 PowerShell User Automation:  <br/>
@@ -101,6 +101,8 @@ PowerShell User Automation:  <br/>
  <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/add3c286-d617-41ba-9462-35ef3c38b454" />&nbsp;&nbsp;&nbsp;&nbsp; <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/8e6a987d-ca5e-4e6e-9ef0-486cafb018c9" />
  <br><br>
  <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/dd3d2fc9-e654-4b75-b909-646ba155321d" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/501c0561-3070-45b9-ab0d-f909c1f3e416" />
+
+ - This script creates 1,000 user accounts to simulate a large enterprise environment.
  
 **` Script Used `**
 ```powershell
@@ -179,7 +181,7 @@ Client Machine Setup:  <br/>
 - This step sets up a client system within the lab environment to simulate a real user workstation. The client machine is used to test domain connectivity, user authentication, and network services provided by the Domain Controller.
 
 <p align="center">
-Observe the wiped disk:  <br/>
+Domain User Login Validation:  <br/>
  
 <img width="1016" height="868" alt="Image" src="https://github.com/user-attachments/assets/29ab288a-5811-425d-b62c-574269f28310" />
 </p>
