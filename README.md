@@ -26,6 +26,7 @@ This lab builds a simulated enterprise network using Active Directory. A Domain 
 
 <p align="center">
 IP Addressing and Network Configuration: <br />
+
 <p align="center">
  <img src="https://github.com/user-attachments/assets/697e368a-3ad4-41b8-af02-2df31b9223ac" width="260"/>
  &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/47e9cff0-67ae-411c-9b32-6ae93d4f1d7e" width="260"/>
@@ -41,6 +42,7 @@ IP Addressing and Network Configuration: <br />
   
 <p align="center">
 Active Directory Installation and Domain Setup:  <br/>
+ 
 <p align="left">
   <img src="https://github.com/user-attachments/assets/c9c572fd-f1a9-4c6b-8115-f0cc490e332f" width="400"/>
   &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="400"/> 
@@ -60,6 +62,7 @@ Active Directory Installation and Domain Setup:  <br/>
   
  <p align="center">
 RAS/NAT: <br/>
+
 <p align="left">
  <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/0af40b6b-c50a-42f3-846c-0f799495c9b5" /> 
  &nbsp;&nbsp;&nbsp;&nbsp; <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/566f74c0-8ec3-43bb-9d1f-0c1cd6f3f2b4" />
@@ -80,7 +83,8 @@ RAS/NAT: <br/>
 
 <p align="center">
 Internet Access Configuration:  <br/>
-<img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/4bb79ddc-54cb-4b1c-928e-cb3c04e51eb4" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/4bb79ddc-54cb-4b1c-928e-cb3c04e51eb4" />&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/c1459a11-34f1-42a4-af84-e9d09cea9848" />
  
  **` Tasks Completed `**
@@ -93,7 +97,8 @@ Internet Access Configuration:  <br/>
   
 <p align="center">
 PowerShell User Automation:  <br/>
-<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/add3c286-d617-41ba-9462-35ef3c38b454" />&nbsp;&nbsp;&nbsp;&nbsp; <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/8e6a987d-ca5e-4e6e-9ef0-486cafb018c9" />
+
+ <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/add3c286-d617-41ba-9462-35ef3c38b454" />&nbsp;&nbsp;&nbsp;&nbsp; <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/8e6a987d-ca5e-4e6e-9ef0-486cafb018c9" />
  <br><br>
  <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/dd3d2fc9-e654-4b75-b909-646ba155321d" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/501c0561-3070-45b9-ab0d-f909c1f3e416" />
  
@@ -156,24 +161,37 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 
 <p align="center">
 Client Machine Setup:  <br/>
-<img width="400" height="500" alt="Image" src="https://github.com/user-attachments/assets/96368fa8-aed4-4996-88e4-9a3e5ff2850e" />
-<br />
+ 
+<img width="400" height="500" alt="Image" src="https://github.com/user-attachments/assets/96368fa8-aed4-4996-88e4-9a3e5ff2850e" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="350" alt="Image" src="https://github.com/user-attachments/assets/d4a5bb7b-9200-4efd-82d3-998e43bb550b" />
+<br /><br>
+<img width="400" height="500" alt="Image" src="https://github.com/user-attachments/assets/1c9b475b-7d7e-4de2-ad2e-f9bee2aa8afa" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="409" alt="Image" src="https://github.com/user-attachments/assets/c63d1d7b-29b8-4a66-9d5a-0ef34f73af43" />
+<br><br>
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/23663373-6f67-4d76-9064-bc9db9319b91" />
  
 **` Tasks Completed `**
-- Created Windows 10 virtual machine (Client 1) in VirtualBox.
-- Allocated system resources (RAM, storage, network adapter). 
-- Installed Windows 10 operating system. 
-- Connected the client machine to the internal network. 
-- Verified network connectivity with the Domain Controller. 
-  
-**` Overview `** 
+- Created Windows 10 virtual machine (Client 1) in VirtualBox.  
+- Allocated system resources (RAM, storage, network adapter).  
+- Installed Windows 10 operating system.  
+- Connected the client machine to the internal network.  
+- Verified network connectivity with the Domain Controller.   
+
+**` Overview `**  
 - This step sets up a client system within the lab environment to simulate a real user workstation. The client machine is used to test domain connectivity, user authentication, and network services provided by the Domain Controller.
 
 <p align="center">
 Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+<img width="1016" height="868" alt="Image" src="https://github.com/user-attachments/assets/29ab288a-5811-425d-b62c-574269f28310" />
 </p>
 
+**` Tasks Completed `**
+- Logged into Client 1 using Active Directory user accounts. 
+- Verified successful domain authentication. 
+- Confirmed user accounts created via PowerShell are functional. 
+- Tested access to the domain environment from the client system.   
+
+**` Overview `**  
+- This step validates the full Active Directory setup by confirming that users created on the Domain Controller can authenticate and log into a client machine. It demonstrates successful integration of user management, domain services, and client connectivity within the network.
 <!--
  ```diff
 - text in red
