@@ -20,7 +20,7 @@ This lab builds a simulated enterprise network using Active Directory. A Domain 
 - <b>Windows Server 2022</b>
 
 <h2>Network Diagram:</h2>
-<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/5700374f-8276-4054-962e-7421f61d373d" />
+<img width="900" height="900" alt="Image" src="https://github.com/user-attachments/assets/5700374f-8276-4054-962e-7421f61d373d" />
 
 <h2>Lab Walk-Through:</h2>
 
@@ -183,7 +183,7 @@ Client Machine Setup:  <br/>
 <p align="center">
 Domain User Login Validation:  <br/>
  
-<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/29ab288a-5811-425d-b62c-574269f28310" />
+<img width="900" height="900" alt="Image" src="https://github.com/user-attachments/assets/29ab288a-5811-425d-b62c-574269f28310" />
 </p>
 
 **` Tasks Completed `**
