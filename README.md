@@ -20,7 +20,7 @@ This lab builds a simulated enterprise network using Active Directory. A Domain 
 - <b>Windows Server 2022</b>
 
 <h2>Network Diagram:</h2>
-<img width="1239" height="749" alt="Image" src="https://github.com/user-attachments/assets/5700374f-8276-4054-962e-7421f61d373d" />
+<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/5700374f-8276-4054-962e-7421f61d373d" />
 
 <h2>Lab Walk-Through:</h2>
 
@@ -44,10 +44,10 @@ IP Addressing and Network Configuration: <br />
 Active Directory Installation and Domain Setup:  <br/>
  
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/c9c572fd-f1a9-4c6b-8115-f0cc490e332f" width="400"/>
-  &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="400"/> 
+  <img src="https://github.com/user-attachments/assets/c9c572fd-f1a9-4c6b-8115-f0cc490e332f" width="500"/>
+  &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/9a33d328-8601-42cd-94dd-91bf3d161bc0" width="500"/> 
  <br><br>
-  <img src="https://github.com/user-attachments/assets/7b33cc25-9f0b-4ff7-ad99-bc2cfaf7321b" width="400"/>
+  <img src="https://github.com/user-attachments/assets/7b33cc25-9f0b-4ff7-ad99-bc2cfaf7321b" width="500"/>
 </p>
 
   **` Tasks Completed `**
@@ -64,11 +64,11 @@ Active Directory Installation and Domain Setup:  <br/>
 RAS/NAT: <br/>
 
 <p align="left">
- <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/0af40b6b-c50a-42f3-846c-0f799495c9b5" /> 
- &nbsp;&nbsp;&nbsp;&nbsp; <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/566f74c0-8ec3-43bb-9d1f-0c1cd6f3f2b4" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0af40b6b-c50a-42f3-846c-0f799495c9b5" /> 
+ &nbsp;&nbsp;&nbsp;&nbsp; <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/566f74c0-8ec3-43bb-9d1f-0c1cd6f3f2b4" />
  <br><br>
- <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/b6adedc0-1835-4dcf-8f3c-1cace81b3fc6" />
- &nbsp;&nbsp;&nbsp;&nbsp; <img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/2ba4ead2-73c0-4436-9fd3-d97d8aa496d7" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/b6adedc0-1835-4dcf-8f3c-1cace81b3fc6" />
+ &nbsp;&nbsp;&nbsp;&nbsp; <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/2ba4ead2-73c0-4436-9fd3-d97d8aa496d7" />
 </p>
 
 **` Tasks Completed `**
@@ -84,8 +84,8 @@ RAS/NAT: <br/>
 <p align="center">
 Internet Access Configuration:  <br/>
 
- <img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/4bb79ddc-54cb-4b1c-928e-cb3c04e51eb4" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="409" height="445" alt="Image" src="https://github.com/user-attachments/assets/c1459a11-34f1-42a4-af84-e9d09cea9848" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/4bb79ddc-54cb-4b1c-928e-cb3c04e51eb4" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c1459a11-34f1-42a4-af84-e9d09cea9848" />
  
  **` Tasks Completed `**
 - Opened Server Manager and accessed Local Server settings.  
@@ -98,9 +98,9 @@ Internet Access Configuration:  <br/>
 <p align="center">
 PowerShell User Automation:  <br/>
 
- <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/add3c286-d617-41ba-9462-35ef3c38b454" />&nbsp;&nbsp;&nbsp;&nbsp; <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/8e6a987d-ca5e-4e6e-9ef0-486cafb018c9" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/add3c286-d617-41ba-9462-35ef3c38b454" />&nbsp;&nbsp;&nbsp;&nbsp; <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/8e6a987d-ca5e-4e6e-9ef0-486cafb018c9" />
  <br><br>
- <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/dd3d2fc9-e654-4b75-b909-646ba155321d" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/501c0561-3070-45b9-ab0d-f909c1f3e416" />
+ <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/dd3d2fc9-e654-4b75-b909-646ba155321d" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/501c0561-3070-45b9-ab0d-f909c1f3e416" />
 
  - This script creates 1,000 user accounts to simulate a large enterprise environment.
  
@@ -164,11 +164,11 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 <p align="center">
 Client Machine Setup:  <br/>
  
-<img width="400" height="500" alt="Image" src="https://github.com/user-attachments/assets/96368fa8-aed4-4996-88e4-9a3e5ff2850e" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="350" alt="Image" src="https://github.com/user-attachments/assets/d4a5bb7b-9200-4efd-82d3-998e43bb550b" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/96368fa8-aed4-4996-88e4-9a3e5ff2850e" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/d4a5bb7b-9200-4efd-82d3-998e43bb550b" />
 <br /><br>
-<img width="400" height="500" alt="Image" src="https://github.com/user-attachments/assets/1c9b475b-7d7e-4de2-ad2e-f9bee2aa8afa" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" height="409" alt="Image" src="https://github.com/user-attachments/assets/c63d1d7b-29b8-4a66-9d5a-0ef34f73af43" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/1c9b475b-7d7e-4de2-ad2e-f9bee2aa8afa" />&nbsp;&nbsp;&nbsp;&nbsp;<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c63d1d7b-29b8-4a66-9d5a-0ef34f73af43" />
 <br><br>
-<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/23663373-6f67-4d76-9064-bc9db9319b91" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/23663373-6f67-4d76-9064-bc9db9319b91" />
  
 **` Tasks Completed `**
 - Created Windows 10 virtual machine (Client 1) in VirtualBox.  
@@ -183,7 +183,7 @@ Client Machine Setup:  <br/>
 <p align="center">
 Domain User Login Validation:  <br/>
  
-<img width="1016" height="868" alt="Image" src="https://github.com/user-attachments/assets/29ab288a-5811-425d-b62c-574269f28310" />
+<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/29ab288a-5811-425d-b62c-574269f28310" />
 </p>
 
 **` Tasks Completed `**
