@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab</h1>
+<h1>Enterprise Active Directory Lab with PowerShell Automation and Network Services</h1>
 
 <h2>Description:</h2>
 This lab builds a simulated enterprise network using Active Directory. A Domain Controller was configured with DNS and DHCP, a client machine was joined to the domain, and PowerShell was used to automate user creation. It demonstrates real-world skills in system administration, network management, and identity control.
